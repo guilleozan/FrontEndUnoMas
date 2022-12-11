@@ -2,7 +2,7 @@ import React from 'react';
 import Card from "react-bootstrap/Card";
 
 import Accordion from "react-bootstrap/Accordion";
-import Dropdown from 'react-bootstrap/Dropdown'
+// import Dropdown from 'react-bootstrap/Dropdown';
 
 
 const Servicios =(props) => {

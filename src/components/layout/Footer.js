@@ -29,10 +29,10 @@
 
 
 import '../../styles/footer.css';
-import {NavLink} from 'react-router-dom';
-import Link from 'react-router-dom';
+// import {NavLink} from 'react-router-dom';
+// import Link from 'react-router-dom';
 import React,{Component} from 'react';
-import cdbreact from'cdbreact';
+// import cdbreact from'cdbreact';
 import { CDBFooter, CDBFooterLink, CDBBtn, CDBIcon, CDBBox} from 'cdbreact';
 
 

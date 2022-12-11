@@ -8,7 +8,7 @@ const NovedadItem = (props) => {
         <div className='novedades nth-child(even)(odd) '>
             <h2> {title} </h2>
             <h2>{subtitle} </h2>
-            <img className='imagen' src={imagen}/>  
+            <img className='imagen' src={imagen} alt='foto'/>  
             <div dangerouslySetInnerHTML= {{ __html:body }} />
             <hr />
         </div>

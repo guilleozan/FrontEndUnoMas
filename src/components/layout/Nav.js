@@ -1,5 +1,5 @@
 import '../../styles/nav.css'
-import {Offcanvas} from 'bootstrap';
+// import {Offcanvas} from 'bootstrap';
 import React from 'react';
 // import {Link} from 'react-router-dom';
 import {NavLink} from 'react-router-dom';

@@ -13,11 +13,11 @@ import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 import Nav from "./components/layout/Nav";
 
-import { Accordion, Card } from 'react-bootstrap';
-import Dropdown from 'react-bootstrap/Dropdown';
+// import { Accordion, Card } from 'react-bootstrap';
+// import Dropdown from 'react-bootstrap/Dropdown';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Carousel from 'react-bootstrap/Carousel';
-import { Offcanvas } from 'bootstrap';
+// import Carousel from 'react-bootstrap/Carousel';
+// import { Offcanvas } from 'bootstrap';
 
 import HomePage from './pages/HomePage';
 import DestinosPage from './pages/DestinosPage';
