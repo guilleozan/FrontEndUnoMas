@@ -1,0 +1,14 @@
+.marca{
+	display: flex;
+	justify-content: flex-end;
+	align-content: stretch;
+	align-content: center;
+
+	
+}
+@media screen and (max-width: 500px){
+	.marca{
+		justify-content:center;
+	
+	}
+}

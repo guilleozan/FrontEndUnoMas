@@ -1,0 +1,55 @@
+/* Pie de pagina */
+.contenedor-footer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #839192 ;
+
+	
+
+}
+.contenedor-footer div{
+
+	margin:20px;
+	padding: 15px;
+	font-family: 'Monoton', cursive;
+	
+}
+.contenedor-footer div a{
+	color:white;
+	text-decoration: none;
+}
+
+.contenedor-footer div :hover{
+	background: #A9A9A9 ;
+	border-radius: 10px ; 
+	
+	transform: scale(0.8);
+	transition:all 0.2s ease 0.3s;
+	
+	
+	text-decoration: none;
+	
+}
+
+
+
+
+.derechos{
+	display: flex;
+	justify-content: center;
+	background-color: rgb(235, 214, 214);
+	width: 100%;
+	align-content: center;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+

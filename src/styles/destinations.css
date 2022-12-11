@@ -1,0 +1,50 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.box{
+    display: flex;
+   
+    width:40%;
+    height: fit-content;
+    background-color:grey;
+    padding: 2px;
+    margin: 10px auto;
+  
+}
+
+.rectangulo{
+    width: 80%;
+    background-color:lightgray;
+    height:fit-content;
+    margin: 10px auto;
+    display: flex;
+   
+  
+}
+.div-cont-dest{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+   
+
+}
+.div-cont-dest p {
+   text-align: center;
+   padding:20px;
+   
+    
+}
+.rigth{
+    float: right;
+    width: 62%;
+    background-color:black;
+    align-items: center;
+    height: 500px;
+}
+.left{
+    width: 38%;
+    float: left;
+    background-color: lightgray;
+}

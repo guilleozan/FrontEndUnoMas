@@ -1,0 +1,202 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+header, footer, section{
+	width:auto;
+	margin: 10px 0px;
+
+}
+
+
+.video{
+	width: 90%;
+	margin-left:5%;
+	margin-right: 5%;
+	height: 400px;
+	background-repeat: repeat;
+	object-fit: cover;
+}
+
+#menu{
+	background-color: white;
+	font-family: 'Monoton';
+}
+/* INICIO HOME PAGE */
+
+
+.imagen1{
+	height: 400px;
+	object-fit: cover;
+	
+}
+
+
+.frase {
+
+ 	font-family: 'Gloria Hallelujah', cursive;
+	margin-top: -70px;
+	margin-left: 10%;
+	position: absolute;
+	color: rgb(rgba 32, 34, 31, 0.356);
+	animation:swing 6s ease-out;
+	animation-iteration-count: infinite;
+
+
+}
+.texto-inicio{
+	display: inline-flex;
+
+}
+.texto-nosotros{
+	margin: 50px 30px;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+}
+
+
+
+	/* FIN HOME PAGE */
+
+	
+
+
+
+
+		/* SERVICIOS */
+
+		.contenedor-actividad{
+			display: flex;	
+			justify-content: space-evenly;
+			flex-flow: wrap row;
+			margin: 10px 10px;
+			
+			}
+			/* .contenedor-actividad :hover.actividad{ 
+				transition: all;}
+			 .contenedor-actividad :hover.actividad{ 
+				transform: scale(1.08);
+				text-shadow: 1px 2px #002244;
+			 } */	
+		.imagen{
+				width: 150px;
+				height: 250px;
+				object-fit: cover;
+				box-sizing: border-box;
+				border-radius: 5px;
+				
+			
+			}
+			.infoCard{
+				display: flex;
+				align-items: center;
+				background-color: green;
+			}
+			
+	
+			
+			.boton{
+				font-family: 'Staatliches', cursive;
+				letter-spacing: 2px;
+				font-size: x-large;
+				text-align: center;
+			}
+			
+			/* div .actividad .imagen div :hover{
+				background: white;
+			} */
+			
+		
+
+
+
+
+		/* FIN DE SERVICIOS */
+
+
+
+
+
+/* COMIENZO GALERIA */
+
+
+.galeria{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	margin: 5px 5px ;
+	
+}
+.galeria img{
+	margin: 5px;
+}
+
+/* FIN GALERIA */
+
+			/* inico NOVEDADES */
+
+.novedades{
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: 4px 80px;
+    padding: 10px ;
+    overflow: hidden; 
+	font-family: 'Gloria Hallelujah', cursive;
+	
+}
+.novedades h2{
+	text-align:flex start;
+	padding: 15px;
+}
+ .imagen
+ {	float: right;
+	width: 250px;
+	height: 300px;	
+} 
+.subtitulo{
+	display: flex;
+	display: inline-block;
+}
+
+
+
+
+	/* FIN DE NOVEDADES */
+
+	/* COMIENZO CONTACTO */
+
+
+	.container{
+		border: solid 2px black;
+		margin: 30px;	
+		border-radius: 1px;		
+		padding: 1em;
+		
+		}
+	.descripcionFormulario{
+		font-family: 'Staatliches', cursive;
+		}
+		.botoneEnviar{
+		text-align: center;
+		}		
+/* FIN CONTACTO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
