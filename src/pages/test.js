@@ -50,7 +50,7 @@ text2:'mas informacion',
 img :"FotosArg/chubut.png"
 },
   ];
-export default function Destinos() {
+export default function DestinosPage() {
   const [toggle, setToggle] = useState("1");
   return (
     <div className="App">
@@ -59,20 +59,20 @@ export default function Destinos() {
           <>
             <div className="main">
               <div className="texto">
-                <h2 className="dest-title"
+                <h1 className="dest-title"
                   onClick={() => {return setToggle(key);
                   }} 
                  >
                   {title}{" "}
-                </h2>
+                </h1>
                 {toggle === key ? (
                   <>
-                    <p className="text-dest">{text}</p>
+                    <p>{text}</p>
                   </>
                 ) : null}
               </div>
 
-              <div className=" fotoArg">
+              <div className="img fotoArg">
                 {toggle === key ? (
                   <>
                     <img src={img} key={key} className="photo" />

@@ -26,6 +26,7 @@ import GaleriaPage from './pages/GaleriaPage';
 import ServiciosPage from './pages/ServiciosPage';
 import ContactoPage from './pages/ContactoPage';
 import AboutPage from './pages/AboutPage';
+import test from './pages/test';
 
 
 
@@ -44,6 +45,7 @@ function App() {
             <Route path="/novedades" exact component={NovedadesPage} />
             <Route path="/galeria" exact component={GaleriaPage} /> 
             <Route path="/contacto" exact component={ContactoPage} /> 
+            <Route path="/test" exact component={test} /> 
             
             <Route path="/about"  component={AboutPage} /> 
           </Switch>

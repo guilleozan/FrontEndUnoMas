@@ -3,7 +3,7 @@ html{
 }
 
 
-.box{
+/* .box{
     display: flex;
    
     width:40%;
@@ -12,9 +12,9 @@ html{
     padding: 2px;
     margin: 10px auto;
   
-}
+} */
 
-.rectangulo{
+/* .rectangulo{
     width: 80%;
     background-color:lightgray;
     height:fit-content;
@@ -23,13 +23,9 @@ html{
    
   
 }
-.div-cont-dest{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-   
 
-}
+
+
 .div-cont-dest p {
    text-align: center;
    padding:20px;
@@ -38,13 +34,66 @@ html{
 }
 .rigth{
     float: right;
-    width: 62%;
-    background-color:black;
-    align-items: center;
-    height: 500px;
+    width: 40%;
+  
+    
+  
 }
 .left{
-    width: 38%;
+    width: 60%;
     float: left;
-    background-color: lightgray;
+    background-color: lightgray; */
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .photo {
+    
+    height: 300px;
+    flex: 1;
+    margin-left: auto;
+  }
+.text{
+    height:0px;
+    margin: 10px;
+    padding:0;
 }
+  .dest-title{
+    font-family:Rubik Distressed ;
+    font-size:xx-large;
+    
+  }
+  @media screen and (max-width:400px) {
+.fotoArg{
+    width:50%;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left:5%;
+  }
+  
+  .photo {
+    width:100%;
+    height:auto
+  }
+.text{
+    height:0px;
+    margin: 10px;
+    padding:0;
+}
+  .dest-title{
+    font-family:Rubik Distressed ;
+    font-size:large;
+    margin:5px 0px;
+    padding-left: 10px;
+  }
+.text-dest{
+    padding:0% 15%;
+}
+  }
+  
